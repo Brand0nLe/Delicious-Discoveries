@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Culinary Compass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Culinary Compass is a restaurant search application built with React, Bootstrap, and TypeScript. It utilizes the Yelp Fusion API (https://www.yelp.com/developers/documentation/v3) to fetch data about various restaurants based on location and cuisine type. The application allows users to search for restaurants, view their details such as their name, ratings, location, and hours of operation. Users can also bookmark their favorite restaurants and retrieve them later using local storage.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search functionality to find restaurants by location or cuisine type
+- Display of restaurant details including name, ratings, location, and hours
+- Bookmarking functionality to save favorite restaurants
+- A Random Selector feature that suggests a restaurant within a specified radius
+- Responsive design that adapts to different screen sizes and devices
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React.js
+- React Router
+- Bootstrap
+- TypeScript
+- CSS
+- HTML
+- RESTful API: Yelp Fusion API (https://www.yelp.com/developers/documentation/v3)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project, follow these steps:
 
-### `npm run build`
+1. Clone the repository to your local machine
+2. Install dependencies by running `npm install` in the project directory
+3. Start the development server by running `npm start`
+4. Open `http://localhost:3000` in your web browser to view the site
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Disclaimer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project, Culinary Compass, is a personal and educational endeavor. It uses the Yelp Fusion API (https://www.yelp.com/developers/documentation/v3) to fetch and display data but is not affiliated with or endorsed by Yelp Inc. This project is purely for the purpose of practicing and developing my skills in front-end development, with a focus on React.js and TypeScript. It is also an exercise in learning to integrate and use third-party APIs. All restaurant information is provided by the Yelp Fusion API, and this application claims no ownership or responsibility for this data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions or feedback about this project, feel free to contact me at [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com). Thanks for visiting!
