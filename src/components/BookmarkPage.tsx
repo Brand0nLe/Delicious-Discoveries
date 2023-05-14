@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from './SearchBar';
 import RestaurantCard from './RestaurantCard';
 
 interface Restaurant {
@@ -29,6 +28,7 @@ const BookmarkPage: React.FC = () => {
             key={restaurant.id}
             restaurant={restaurant}
             onBookmark={handleUnbookmark}
+            showBookmark={false} // Optional: To hide bookmark button in BookmarkPage
           />
         ))}
       </div>
