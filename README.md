@@ -42,4 +42,10 @@ This project, Delicious Discoveries, is a personal and educational endeavor. It 
 
 ## Contact
 
-If you have any questions or feedback about this project, feel free to contact me at [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/brandonctle/).  Thanks for visiting!
+If you have any questions or feedback about this project, feel free to contact me at [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com).
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/brandonctle/) to stay updated on my latest projects and professional profile.
+
+You can also visit my portfolio website at [https://www.brandonle.azurewebsites.net](https://www.brandonle.azurewebsites.net).
+
+Thanks for visiting!
