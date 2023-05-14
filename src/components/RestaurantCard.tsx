@@ -1,12 +1,14 @@
 import React from 'react';
 
+interface Restaurant {
+  id: string;
+  name: string;
+  // Add other properties...
+}
+
 interface Props {
-  restaurant: {
-    id: string;
-    name: string;
-    // Add other properties...
-  };
-  onBookmark: (restaurant: any) => void;
+  restaurant: Restaurant;
+  onBookmark: (restaurant: Restaurant) => void;
   showBookmark: boolean;
 }
 
@@ -21,7 +23,7 @@ const RestaurantCard: React.FC<Props> = ({ restaurant, onBookmark, showBookmark 
       {/* Display other restaurant information here */}
       {showBookmark && (
         <button onClick={handleBookmarkClick}>
-          {restaurant.bookmarked ? 'Unbookmark' : 'Bookmark'}
+          Bookmark
         </button>
       )}
     </div>

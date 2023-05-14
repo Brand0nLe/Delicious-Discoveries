@@ -5,14 +5,23 @@ import SearchBar from './SearchBar';
 
 interface Restaurant {
   id: string;
+  name: string;
   // Add other properties...
 }
 
+interface UpdatedRestaurant extends Restaurant {
+  bookmarked: boolean;
+}
+
 const HomePage: React.FC = () => {
-  const [results, setResults] = useState<Restaurant[]>([]);
+  const [results, setResults] = useState<UpdatedRestaurant[]>([]);
 
   const handleSearch = (newResults: Restaurant[]) => {
-    setResults(newResults);
+    const updatedResults = newResults.map((restaurant) => ({
+      ...restaurant,
+      bookmarked: false,
+    }));
+    setResults(updatedResults);
   };
 
   const handleBookmark = (restaurant: Restaurant) => {
@@ -20,7 +29,7 @@ const HomePage: React.FC = () => {
       if (res.id === restaurant.id) {
         return {
           ...res,
-          bookmarked: !res.bookmarked // Toggle the bookmarked status
+          bookmarked: !res.bookmarked,
         };
       }
       return res;
@@ -38,7 +47,7 @@ const HomePage: React.FC = () => {
               <RestaurantCard
                 restaurant={restaurant}
                 onBookmark={handleBookmark}
-                showBookmark={true} // Optional: To show bookmark button in HomePage
+                showBookmark={true}
               />
             </Col>
           ))}
