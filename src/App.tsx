@@ -1,13 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import BookmarkPage from './components/BookmarkPage';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <Router>
-      <Route path="/" Component={HomePage} />
-      <Route path="/bookmarks" Component={BookmarkPage} />
+      <Routes>
+        <Route path="/bookmarks" element={<BookmarkPage />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </Router>
   );
 };

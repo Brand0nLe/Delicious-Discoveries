@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import RestaurantCard from './RestaurantCard';
 import SearchBar from './SearchBar';
+import Header from './Header';
 
 interface Restaurant {
   id: string;
@@ -40,6 +41,7 @@ const HomePage: React.FC = () => {
   return (
     <main>
       <Container>
+        <Header/>
         <SearchBar onSearch={handleSearch} />
         <Row>
           {results.map((restaurant) => (
