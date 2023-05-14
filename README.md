@@ -2,6 +2,8 @@
 
 Delicious Discoveries is a restaurant search application built with React, Bootstrap, and TypeScript. It utilizes the Yelp Fusion API (https://www.yelp.com/developers/documentation/v3) to fetch data about various restaurants based on location and cuisine type. The application allows users to search for restaurants, view their details such as their name, ratings, location, and hours of operation. Users can also bookmark their favorite restaurants and retrieve them later using local storage.
 
+**Check out the deployed application [Coming Soon...](https://urlgoeshere.azurewebsites.net/).**
+
 ## Features
 
 - Search functionality to find restaurants by location or cuisine type
