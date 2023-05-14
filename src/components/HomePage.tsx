@@ -16,7 +16,16 @@ const HomePage: React.FC = () => {
   };
 
   const handleBookmark = (restaurant: Restaurant) => {
-    // Implement bookmarking logic here.
+    const updatedResults = results.map((res) => {
+      if (res.id === restaurant.id) {
+        return {
+          ...res,
+          bookmarked: !res.bookmarked // Toggle the bookmarked status
+        };
+      }
+      return res;
+    });
+    setResults(updatedResults);
   };
 
   return (
