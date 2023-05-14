@@ -33,7 +33,7 @@ To run this project, follow these steps:
 6. Start the development server by running `npm start`
 7. Open `http://localhost:3000` in your web browser to view the site
 
-Note: Make sure to keep your API key confidential and do not commit the .env file to any public repositories. The .env file is already added to the .gitignore, so it won't be uploaded to the repository.
+> **Note:** Make sure to keep your API key confidential and do not commit the `.env` file to any public repositories. The `.env` file is already added to the `.gitignore`, so it won't be uploaded to the repository.
 
 
 ## Disclaimer
