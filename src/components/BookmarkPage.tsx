@@ -4,6 +4,7 @@ import RestaurantCard from './RestaurantCard';
 
 interface Restaurant {
   id: string;
+  name: string;
   // Add other properties...
 }
 
