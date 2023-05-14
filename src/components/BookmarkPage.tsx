@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import RestaurantCard from './RestaurantCard';
 
 interface Restaurant {
@@ -22,16 +23,19 @@ const BookmarkPage: React.FC = () => {
 
   return (
     <main>
-      <div>
-        {bookmarks.map((restaurant) => (
-          <RestaurantCard
-            key={restaurant.id}
-            restaurant={restaurant}
-            onBookmark={handleUnbookmark}
-            showBookmark={false} // Optional: To hide bookmark button in BookmarkPage
-          />
-        ))}
-      </div>
+      <Container>
+        <Row>
+          {bookmarks.map((restaurant) => (
+            <Col key={restaurant.id} lg={4} md={6} sm={12}>
+              <RestaurantCard
+                restaurant={restaurant}
+                onBookmark={handleUnbookmark}
+                showBookmark={false} // Optional: To hide bookmark button in BookmarkPage
+              />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </main>
   );
 };
