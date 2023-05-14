@@ -15,7 +15,7 @@ Delicious Discoveries is a restaurant search application built with React, Boots
 ## Technologies Used
 
 - React.js
-- React Router
+- React-Router
 - Bootstrap
 - TypeScript
 - CSS
