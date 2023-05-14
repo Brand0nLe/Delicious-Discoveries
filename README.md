@@ -27,8 +27,14 @@ To run this project, follow these steps:
 
 1. Clone the repository to your local machine
 2. Install dependencies by running `npm install` in the project directory
-3. Start the development server by running `npm start`
-4. Open `http://localhost:3000` in your web browser to view the site
+3. Obtain a Yelp Fusion API key by following the instructions in the [Yelp Fusion API documentation](https://www.yelp.com/developers/documentation/v3/get_started)
+4. Create a new file named `.env` in the root directory of the project
+5. In the `.env` file, add the following line and replace `YOUR_YELP_API_KEY` with your actual Yelp Fusion API key: REACT_APP_YELP_API_KEY = YOUR_YELP_API_KEY
+6. Start the development server by running `npm start`
+7. Open `http://localhost:3000` in your web browser to view the site
+
+**Note:** Please ensure you keep your API key secure and do not share it publicly.
+
 
 ## Disclaimer
 
