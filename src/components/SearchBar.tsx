@@ -12,10 +12,12 @@ const SearchBar: React.FC<Props> = ({ onSearch }) => {
 
     try {
       const response = await fetch(
-        `https://api.yelp.com/v3/businesses/search?term=${searchTerm}&location=YOUR_LOCATION`,
+        `https://api.yelp.com/v3/businesses/search?term=${searchTerm}&location=${encodeURIComponent(
+          searchTerm
+        )}`,
         {
           headers: {
-            Authorization: 'Bearer YOUR_YELP_API_KEY',
+            Authorization: `Bearer ${process.env.REACT_APP_YELP_API_KEY}`,
           },
         }
       );
