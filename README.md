@@ -42,4 +42,4 @@ This project, Delicious Discoveries, is a personal and educational endeavor. It 
 
 ## Contact
 
-If you have any questions or feedback about this project, feel free to contact me at [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com). Thanks for visiting!
+If you have any questions or feedback about this project, feel free to contact me at [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/brandonctle/).  Thanks for visiting!
