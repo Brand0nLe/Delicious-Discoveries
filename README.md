@@ -4,7 +4,7 @@ Delicious Discoveries is a restaurant search application built with React, Boots
 
 **Check out the deployed application [In development...](https://urlgoeshere.azurewebsites.net/).**
 
-## Features
+## Features (Currently planned and subject to change)
 
 - Search functionality to find restaurants by location or cuisine type
 - Display of restaurant details including name, ratings, location, and hours
