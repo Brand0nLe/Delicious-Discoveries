@@ -1,8 +1,8 @@
-# Delicious Discoveries
+# Delicious Discoveries - IN DEVELOPMENT
 
 Delicious Discoveries is a restaurant search application built with React, Bootstrap, and TypeScript. It utilizes the Yelp Fusion API (https://www.yelp.com/developers/documentation/v3) to fetch data about various restaurants based on location and cuisine type. The application allows users to search for restaurants, view their details such as their name, ratings, location, and hours of operation. Users can also bookmark their favorite restaurants and retrieve them later using local storage.
 
-**Check out the deployed application [Coming Soon...](https://urlgoeshere.azurewebsites.net/).**
+**Check out the deployed application [In development...](https://urlgoeshere.azurewebsites.net/).**
 
 ## Features
 
@@ -41,6 +41,8 @@ To run this project, follow these steps:
 ## Disclaimer
 
 This project, Delicious Discoveries, is a personal and educational endeavor. It uses the Yelp Fusion API (https://www.yelp.com/developers/documentation/v3) to fetch and display data but is not affiliated with or endorsed by Yelp Inc. This project is purely for the purpose of practicing and developing my skills in front-end development, with a focus on React.js and TypeScript. It is also an exercise in learning to integrate and use third-party APIs. All restaurant information is provided by the Yelp Fusion API, and this application claims no ownership or responsibility for this data.
+
+Due to the fact that the Yelp Fusion API has very strict guidelines for their display requirements, I will be taking my time to do this project on the side and try to slowly develop it as I further my skills in web development. I want to make sure I don't make any beginner mistakes and abide by their terms of service. If you're interested in seeing my journey developing this app, go ahead and give a it a star or reach out to me via any of my listed methods of contact. ** Also this will be 100% just for my personal use to strengthen my skills. There are no plans for commercial use.**
 
 ## Contact
 
