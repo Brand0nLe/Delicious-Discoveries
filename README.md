@@ -46,10 +46,10 @@ Due to the fact that the Yelp Fusion API has very strict guidelines for their di
 
 ## Contact
 
-If you have any questions or feedback about this project, feel free to contact me at [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com).
+If you have any questions or would like to know more about myself, feel free to reach out to me.
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/brandonctle/) to stay updated on my latest projects and professional profile.
+- Email: [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/brandonctle](https://www.linkedin.com/in/brandonctle/)
+- Portfolio: [https://brandonle.azurewebsites.net](https://brandonle.azurewebsites.net/)
 
-You can also [visit my portfolio website](https://brandonle.azurewebsites.net/). 
-
-Thanks for visiting!
+Thank you for visiting!
